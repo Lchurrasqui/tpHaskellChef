@@ -5,7 +5,7 @@ data Participante = Participante {
     nombre :: String,
     trucos :: [Truco],
     especialidad :: Plato
-} deriving (Show, Eq)
+} 
 
 data Plato = Plato {
     nombrePlato :: String,
